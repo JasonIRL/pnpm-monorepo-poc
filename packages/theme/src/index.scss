@@ -1,0 +1,14 @@
+$colors: (
+  hot-pink: #ff69b4,
+  lime-green: #32cd32,
+  bright-aqua: #00ffff,
+  neon-orange: #ff9933,
+  neon-yellow: #ccff00,
+  fluorescent-purple: #bf00ff,
+);
+
+:root {
+  @each $name, $color in $colors {
+    --#{$name}: #{$color};
+  }
+}

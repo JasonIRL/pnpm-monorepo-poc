@@ -1,0 +1,9 @@
+.mono-button__Primary {
+  background-color: var(--hot-pink);
+  color: var(--lime-green);
+}
+
+.mono-button__Secondary {
+  background-color: var(--bright-aqua);
+  color: var(--neon-orange);
+}

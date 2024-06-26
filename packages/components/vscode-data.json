@@ -1,0 +1,30 @@
+{
+  "version": 1.1,
+  "tags": [
+    {
+      "name": "mono-button",
+      "description": {
+        "kind": "markdown",
+        "value": ""
+      },
+      "attributes": [
+        {
+          "name": "text",
+          "description": "The text to display on the button."
+        },
+        {
+          "name": "type",
+          "description": "The type of button.",
+          "values": [
+            {
+              "name": "Primary"
+            },
+            {
+              "name": "Secondary"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
