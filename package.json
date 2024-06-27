@@ -7,6 +7,7 @@
     "all:build": "pnpm -r build",
     "all:test": "pnpm -r test",
     "dev": "pnpm --parallel -r watch",
+    "storybook": "pnpm --filter storybook storybook",
     "start:website": "pnpm --filter website dev",
     "start:components": "pnpm --filter components start",
     "build:components": "pnpm --filter components build",
@@ -19,5 +20,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@9.4.0+sha256.b6fd0bfda555e7e584ad7e56b30c68b01d5a04f9ee93989f4b93ca8473c49c74"
+  "packageManager": "pnpm@9.4.0+sha256.b6fd0bfda555e7e584ad7e56b30c68b01d5a04f9ee93989f4b93ca8473c49c74",
+  "devDependencies": {
+    "turbo": "^2.0.5"
+  }
 }

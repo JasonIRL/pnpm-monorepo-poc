@@ -4,18 +4,14 @@
  * @param {numer} b
  * @returns {number}
  */
-const add = (a: number, b: number): number => a + b;
-
+declare const add: (a: number, b: number) => number;
 /**
  * Subtracts two numbers
  * @param {number} a
  * @param {number} b
  * @returns {number}
  */
-const subtract = (a: number, b: number): number => a - b;
-
-const multiply = (a: number, b: number): number => a * b;
-
-const divide = (a: number, b: number): number => a / b;
-
+declare const subtract: (a: number, b: number) => number;
+declare const multiply: (a: number, b: number) => number;
+declare const divide: (a: number, b: number) => number;
 export { add, divide, multiply, subtract };

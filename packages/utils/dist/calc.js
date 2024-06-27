@@ -12,4 +12,6 @@ const add = (a, b) => a + b;
  * @returns {number}
  */
 const subtract = (a, b) => a - b;
-export { add, subtract };
+const multiply = (a, b) => a * b;
+const divide = (a, b) => a / b;
+export { add, divide, multiply, subtract };
