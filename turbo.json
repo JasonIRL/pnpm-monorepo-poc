@@ -7,6 +7,10 @@
       "outputs": ["dist/**", "storybook-static/**"]
     },
     "test": {},
-    "build:storybook": {}
+    "build:storybook": {},
+    "//#format-and-lint": {},
+    "//#format-and-lint:fix": {
+      "cache": false
+    }
   }
 }

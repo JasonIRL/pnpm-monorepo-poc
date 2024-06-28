@@ -6,7 +6,7 @@ describe('MonoButton', () => {
   it('should render a MonoButton', async () => {
     const page = await newSpecPage({
       components: [MonoButton],
-      template: () => <mono-button text="Hello!"></mono-button>,
+      template: () => <mono-button text="Hello!" />,
     });
 
     expect(page.root).toEqualHtml(/*html*/ `

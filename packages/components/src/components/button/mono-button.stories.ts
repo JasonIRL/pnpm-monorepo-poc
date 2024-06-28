@@ -9,7 +9,8 @@ const meta: Meta = {
       options: ['Primary', 'Secondary'],
     },
   },
-  render: args => `<mono-button text="${args.text}" type="${args.type}"></mono-button>`,
+  render: (args) =>
+    `<mono-button text="${args.text}" type="${args.type}"></mono-button>`,
 };
 
 export default meta;

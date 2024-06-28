@@ -9,9 +9,7 @@ jobs:
     name: Build and Test
     timeout-minutes: 15
     runs-on: ubuntu-latest
-    # env:
-    #   TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
-    #   TURBO_TEAM: ${{ vars.TURBO_TEAM }}
+
     steps:
       - name: Check out code
         uses: actions/checkout@v4
@@ -38,6 +36,9 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install
+
+      - name: Lint
+        run: pnpm lint
 
       - name: Build
         run: pnpm build

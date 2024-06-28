@@ -9,9 +9,7 @@
   "collection:main": "dist/collection/index.js",
   "contributes": {
     "html": {
-      "customData": [
-        "./vscode-data.json"
-      ]
+      "customData": ["./vscode-data.json"]
     }
   },
   "unpkg": "dist/components/components.esm.js",
@@ -34,10 +32,7 @@
     "type": "git",
     "url": "https://github.com/ionic-team/stencil-component-starter.git"
   },
-  "files": [
-    "dist/",
-    "loader/"
-  ],
+  "files": ["dist/", "loader/"],
   "scripts": {
     "build": "stencil build",
     "start": "stencil build --dev --watch --serve",

@@ -1,4 +1,4 @@
-import { Component, Event, EventEmitter, Prop, h } from '@stencil/core';
+import { Component, Event, type EventEmitter, Prop, h } from '@stencil/core';
 
 @Component({
   tag: 'mono-button',
@@ -20,7 +20,11 @@ export class MonoButton {
   @Event() monoClick: EventEmitter;
   render() {
     return (
-      <button class={`mono-button__${this.type}`} type="button" onClick={() => this.monoClick.emit()}>
+      <button
+        class={`mono-button__${this.type}`}
+        type="button"
+        onClick={() => this.monoClick.emit()}
+      >
         {this.text}
       </button>
     );

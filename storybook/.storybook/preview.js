@@ -1,7 +1,7 @@
 /** @type { import('@storybook/web-components').Preview } */
 
-import { defineCustomElements } from "@monorepo/components/loader";
-import "@monorepo/theme/dist/index.css";
+import { defineCustomElements } from '@monorepo/components/loader';
+import '@monorepo/theme/dist/index.css';
 
 defineCustomElements();
 
