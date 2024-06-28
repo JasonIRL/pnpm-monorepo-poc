@@ -5,6 +5,10 @@
     "build": {
       "dependsOn": ["^build"],
       "inputs": ["$TURBO_DEFAULT$", "!loader", "!www", "!**/*.stories.{tsx,jsx,mdx,ts}"]
+    },
+    "test": {
+      "dependsOn": ["^test"],
+      "inputs": ["$TURBO_DEFAULT$", "!loader", "!www", "!**/*.stories.{tsx,jsx,mdx,ts}"]
     }
   }
 }

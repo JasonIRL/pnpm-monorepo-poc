@@ -17,7 +17,7 @@ type Story = StoryObj;
 
 export const Primary: Story = {
   args: {
-    text: 'Button Test -- Only build storybook 3',
+    text: 'Button Test -- Only build storybook 8',
     type: 'Primary',
   },
 };
