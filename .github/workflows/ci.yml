@@ -28,6 +28,6 @@ jobs:
       - name: Install dependencies
         run: pnpm install
       - name: Build
-        run: turbo build build:storybook
+        run: pnpm build
       - name: Test
-        run: turbo test
+        run: pnpm test

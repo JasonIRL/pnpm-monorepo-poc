@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "all:build": "pnpm -r build",
-    "all:test": "pnpm -r test",
+    "build": "turbo run build build:storybook",
+    "test": "turbo run test",
     "dev": "pnpm --parallel -r watch",
     "storybook": "pnpm --filter storybook storybook",
     "start:website": "pnpm --filter website dev",
