@@ -1,4 +1,4 @@
-# PNPM Monorepo Test
+# Turborepo w/ pnpm Monorepo Test
 
 This is a test of a monorepo using PNPM workspaces.
 
@@ -27,5 +27,5 @@ This is a test of a monorepo using PNPM workspaces.
   ```
 - Run the tests
   ```bash
-   $ pnpm all:test
+   $ pnpm test
   ```
