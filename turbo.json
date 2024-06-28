@@ -2,10 +2,11 @@
   "$schema": "https://turbo.build/schema.json",
   "tasks": {
     "build": {
-      "inputs": ["$TURBO_DEFAULT$", "!**/*.mdx"],
-      "outputs": ["dist/**"]
+      "dependsOn": ["^build"],
+      "inputs": ["$TURBO_DEFAULT$", "!**/*.stories.{tsx,jsx,mdx,ts}"],
+      "outputs": ["dist/**", "storybook-static/**"]
     },
-    "build:storybook": {},
-    "test": {}
+    "test": {},
+    "build:storybook": {}
   }
 }
