@@ -4,11 +4,12 @@
   "tasks": {
     "build": {
       "dependsOn": ["^build"],
-      "inputs": ["$TURBO_DEFAULT$", "!loader", "!www", "!**/*.stories.{tsx,jsx,mdx,ts}"]
+      "inputs": ["$TURBO_DEFAULT$", "!**/*.stories.{tsx,jsx,mdx,ts}"],
+      "outputs": ["dist/**", "loader/**"]
     },
     "test": {
       "dependsOn": ["^test"],
-      "inputs": ["$TURBO_DEFAULT$", "!loader", "!www", "!**/*.stories.{tsx,jsx,mdx,ts}"]
+      "inputs": ["$TURBO_DEFAULT$", "!**/*.stories.{tsx,jsx,mdx,ts}"]
     }
   }
 }
