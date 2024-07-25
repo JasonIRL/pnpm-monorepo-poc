@@ -39,31 +39,33 @@ if (options.all) {
 }
 
 if (options.migrate) {
-  git
-    .status(undefined, (err, data) => {})
-    .then((repoStatus) => {
-      const isClean = repoStatus.isClean();
+  git.status().then((repoStatus) => {
+    const isClean = repoStatus.isClean();
 
-      if (!isClean) {
-        console.log(
-          `${chalk.redBright.bold("Please commit your changes before running migrations")}`
-        );
-        process.exit(1);
-      }
+    if (!isClean) {
+      console.log(
+        `${chalk.redBright.bold("Please commit your changes before running migrations")}`
+      );
+      process.exit(1);
+    }
 
-      if (options.migrate === "001") {
-        runMigration({
-          cwd: process.cwd(),
-          migrationFilePath: require.resolve("./migrations/001-gitignore.js"),
-        });
-      }
-      if (options.migrate === "002") {
-        runMigration({
-          cwd: process.cwd(),
-          migrationFilePath: require.resolve("./002.js"),
-        });
-      }
+    const definitions = require("./migrations/_definitions.json");
+    const availableMigrations = definitions.map((def) => def.key);
+
+    if (!availableMigrations.includes(options.migrate)) {
+      console.log(
+        `${chalk.redBright.bold("Migration not found. Please check the key and try again.")}`
+      );
+      process.exit(1);
+    }
+
+    runMigration({
+      cwd: process.cwd(),
+      migrationFilePath: require.resolve(
+        `./migrations/${definitions.find((def) => def.key === options.migrate).file}`
+      ),
     });
+  });
 }
 
 if (options.list || options.listAll) {
