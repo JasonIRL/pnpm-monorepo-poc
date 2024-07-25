@@ -8,6 +8,9 @@
     },
     "test": {},
     "build:storybook": {},
+    "//#migrate": {
+      "cache": false
+    },
     "//#format-and-lint": {},
     "//#format-and-lint:fix": {
       "cache": false

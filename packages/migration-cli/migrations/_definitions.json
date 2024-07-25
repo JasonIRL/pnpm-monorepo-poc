@@ -1,0 +1,17 @@
+[
+  {
+    "key": "001",
+    "description": "add a comment to the top of the gitignore file",
+    "file": "001-gitignore.js"
+  },
+  {
+    "key": "002",
+    "description": "add a comment to the bottom of the gitignore file",
+    "file": "002-end-comment.js"
+  },
+  {
+    "key": "003",
+    "description": "formats a js file with prettier",
+    "file": "003-format-js.js"
+  }
+]

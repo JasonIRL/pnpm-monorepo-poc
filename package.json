@@ -11,6 +11,7 @@
     "dev": "pnpm --parallel -r watch",
     "format-and-lint": "biome check .",
     "format-and-lint:fix": "biome check . --write",
+    "migrate": "pnpm exec migration-cli",
     "storybook": "pnpm --filter storybook storybook",
     "start:website": "pnpm --filter website dev",
     "start:components": "pnpm --filter components start",
@@ -27,6 +28,7 @@
   "packageManager": "pnpm@9.4.0+sha256.b6fd0bfda555e7e584ad7e56b30c68b01d5a04f9ee93989f4b93ca8473c49c74",
   "devDependencies": {
     "@biomejs/biome": "1.8.3",
-    "turbo": "^2.0.5"
+    "turbo": "^2.0.5",
+    "@monorepo/migration-cli": "workspace:*"
   }
 }
