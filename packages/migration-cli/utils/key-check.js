@@ -1,4 +1,4 @@
-const { existsSync } = require("node:fs");
+const { existsSync } = require('node:fs');
 
 const LOGFILE = `${process.cwd()}/migration-log.json`;
 
