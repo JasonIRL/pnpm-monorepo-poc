@@ -59,7 +59,6 @@ function runAllMigrations() {
  * @returns {LogEntry | undefined}
  */
 function checkLog(key) {
-  console.log(`Checking log for ${key}`);
   const log = require(`${process.cwd()}/migration-log.json`);
   return log.some((entry) => entry.key === key)
     ? log.find((entry) => entry.key === key)
