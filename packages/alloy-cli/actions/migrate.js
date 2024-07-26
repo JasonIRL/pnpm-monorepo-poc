@@ -19,6 +19,7 @@ function runMigrationsByKey(key, reRun = false) {
       `${chalk.redBright.bold(`Migration ${chalk.bgRed.white(key)} not found. Please check the key and try again.`)}`,
     );
     process.exitCode = 0;
+    return;
   }
 
   const previouslyRun = checkLog(key);
@@ -29,6 +30,7 @@ function runMigrationsByKey(key, reRun = false) {
       `${chalk.redBright.bold('\nYou can re-run this migration by running with the --re-run flag.')}`,
     );
     process.exitCode = 0;
+    return;
   }
 
   if (!previouslyRun || reRun) {
