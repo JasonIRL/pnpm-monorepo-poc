@@ -11,7 +11,7 @@
     "dev": "pnpm --parallel -r watch",
     "format-and-lint": "biome check .",
     "format-and-lint:fix": "biome check . --write",
-    "migrate": "pnpm exec migration-cli",
+    "migrate": "pnpm exec alloy-cli",
     "storybook": "pnpm --filter storybook storybook",
     "start:website": "pnpm --filter website dev",
     "start:components": "pnpm --filter components start",
@@ -29,6 +29,6 @@
   "devDependencies": {
     "@biomejs/biome": "1.8.3",
     "turbo": "^2.0.5",
-    "@monorepo/migration-cli": "workspace:*"
+    "@monorepo/alloy-cli": "workspace:*"
   }
 }

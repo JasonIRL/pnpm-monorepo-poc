@@ -11,7 +11,7 @@
   },
   {
     "key": "003",
-    "description": "formats a js file with prettier",
-    "file": "003-format-js.js"
+    "description": "Converts semantic slots to color variables and tokens in .scss files",
+    "file": "003-color-vars.js"
   }
 ]

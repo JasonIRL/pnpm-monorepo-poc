@@ -1,1 +1,1 @@
-export { add, divide, multiply, subtract } from "./calc";
+export { add, divide, multiply, subtract } from './calc';
