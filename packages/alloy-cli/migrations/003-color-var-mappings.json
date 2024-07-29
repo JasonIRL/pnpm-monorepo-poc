@@ -1,0 +1,1190 @@
+[
+  {
+    "slot": "accordion.header.background",
+    "token": "--alloy-alias-color-background-light"
+  },
+  {
+    "slot": "accordion.header.icon",
+    "token": "--alloy-alias-color-graphic-default"
+  },
+  {
+    "slot": "accordion.header.text",
+    "token": "--alloy-alias-color-text-strong"
+  },
+  {
+    "slot": "accordion.item.background",
+    "token": "--alloy-alias-color-background-light"
+  },
+  {
+    "slot": "accordion.item.background--hover",
+    "token": "--alloy-alias-color-background-primary-light"
+  },
+  {
+    "slot": "accordion.item.background--pressed",
+    "token": "--alloy-alias-color-background-primary-subtle"
+  },
+  {
+    "slot": "accordion.item.border",
+    "token": "--alloy-alias-color-border-subtle"
+  },
+  {
+    "slot": "accordion.item.border--disabled",
+    "token": "--alloy-alias-color-border-subtle"
+  },
+  {
+    "slot": "alert.error.background",
+    "token": "--alloy-alias-color-status-critical-subtle"
+  },
+  {
+    "slot": "alert.error.border",
+    "token": "--alloy-alias-color-status-critical-strong"
+  },
+  {
+    "slot": "alert.error.icon",
+    "token": "--alloy-alias-color-status-critical-strong"
+  },
+  {
+    "slot": "alert.error.text",
+    "token": "--alloy-alias-color-text-default"
+  },
+  {
+    "slot": "alert.info.background",
+    "token": "--alloy-alias-color-status-info-subtle"
+  },
+  {
+    "slot": "alert.info.border",
+    "token": "--alloy-alias-color-status-info-strong"
+  },
+  {
+    "slot": "alert.info.icon",
+    "token": "--alloy-alias-color-status-info-strong"
+  },
+  {
+    "slot": "alert.info.text",
+    "token": "--alloy-alias-color-text-default"
+  },
+  {
+    "slot": "alert.success.background",
+    "token": "--alloy-alias-color-status-success-subtle"
+  },
+  {
+    "slot": "alert.success.border",
+    "token": "--alloy-alias-color-status-success-strong"
+  },
+  {
+    "slot": "alert.success.icon",
+    "token": "--alloy-alias-color-status-success-strong"
+  },
+  {
+    "slot": "alert.success.text",
+    "token": "--alloy-alias-color-text-default"
+  },
+  {
+    "slot": "alert.warning.background",
+    "token": "--alloy-alias-color-status-warning-subtle"
+  },
+  {
+    "slot": "alert.warning.border",
+    "token": "--alloy-alias-color-status-warning-strong"
+  },
+  {
+    "slot": "alert.warning.icon",
+    "token": "--alloy-alias-color-status-warning-strong"
+  },
+  {
+    "slot": "alert.warning.text",
+    "token": "--alloy-alias-color-text-default"
+  },
+  {
+    "slot": "badge.dot.draft.background",
+    "token": "--alloy-alias-color-status-draft-default"
+  },
+  {
+    "slot": "badge.dot.draft.border",
+    "token": "--alloy-alias-color-border-dark"
+  },
+  {
+    "slot": "badge.dot.error.background",
+    "token": "--alloy-alias-color-status-critical-strong"
+  },
+  {
+    "slot": "badge.dot.error.border",
+    "token": "--alloy-alias-color-border-dark"
+  },
+  {
+    "slot": "badge.dot.info.background",
+    "token": "--alloy-alias-color-status-info-default"
+  },
+  {
+    "slot": "badge.dot.info.border",
+    "token": "--alloy-alias-color-border-dark"
+  },
+  {
+    "slot": "badge.dot.success.background",
+    "token": "--alloy-alias-color-status-success-default"
+  },
+  {
+    "slot": "badge.dot.success.border",
+    "token": "--alloy-alias-color-border-dark"
+  },
+  {
+    "slot": "badge.dot.warning.background",
+    "token": "--alloy-alias-color-status-warning-default"
+  },
+  {
+    "slot": "badge.dot.warning.border",
+    "token": "--alloy-alias-color-border-dark"
+  },
+  {
+    "slot": "badge.text.draft.background",
+    "token": "--alloy-alias-color-status-draft-subtle"
+  },
+  {
+    "slot": "badge.text.draft.border",
+    "token": "--alloy-alias-color-border-dark"
+  },
+  {
+    "slot": "badge.text.draft.dismiss",
+    "token": "--alloy-alias-color-status-draft-strong"
+  },
+  {
+    "slot": "badge.text.draft.icon",
+    "token": "--alloy-alias-color-status-draft-strong"
+  },
+  {
+    "slot": "badge.text.draft.text",
+    "token": "--alloy-alias-color-text-default"
+  },
+  {
+    "slot": "badge.text.error.background",
+    "token": "--alloy-alias-color-status-critical-subtle"
+  },
+  {
+    "slot": "badge.text.error.border",
+    "token": "--alloy-alias-color-status-critical-strong"
+  },
+  {
+    "slot": "badge.text.error.dismiss",
+    "token": "--alloy-alias-color-status-critical-strong"
+  },
+  {
+    "slot": "badge.text.error.icon",
+    "token": "--alloy-alias-color-status-critical-strong"
+  },
+  {
+    "slot": "badge.text.error.text",
+    "token": "--alloy-alias-color-text-default"
+  },
+  {
+    "slot": "badge.text.info.background",
+    "token": "--alloy-alias-color-status-success-subtle"
+  },
+  {
+    "slot": "badge.text.info.border",
+    "token": "--alloy-alias-color-status-info-strong"
+  },
+  {
+    "slot": "badge.text.info.dismiss",
+    "token": "--alloy-alias-color-status-info-strong"
+  },
+  {
+    "slot": "badge.text.info.icon",
+    "token": "--alloy-alias-color-status-info-strong"
+  },
+  {
+    "slot": "badge.text.info.text",
+    "token": "--alloy-alias-color-text-default"
+  },
+  {
+    "slot": "badge.text.success.background",
+    "token": "--alloy-alias-color-status-success-subtle"
+  },
+  {
+    "slot": "badge.text.success.border",
+    "token": "--alloy-alias-color-status-success-strong"
+  },
+  {
+    "slot": "badge.text.success.dismiss",
+    "token": "--alloy-alias-color-status-success-strong"
+  },
+  {
+    "slot": "badge.text.success.icon",
+    "token": "--alloy-alias-color-status-success-strong"
+  },
+  {
+    "slot": "badge.text.success.text",
+    "token": "--alloy-alias-color-text-default"
+  },
+  {
+    "slot": "badge.text.warning.background",
+    "token": "--alloy-alias-color-status-warning-subtle"
+  },
+  {
+    "slot": "badge.text.warning.border",
+    "token": "--alloy-alias-color-status-warning-strong"
+  },
+  {
+    "slot": "badge.text.warning.dismiss",
+    "token": "--alloy-alias-color-status-warning-strong"
+  },
+  {
+    "slot": "badge.text.warning.icon",
+    "token": "--alloy-alias-color-status-warning-strong"
+  },
+  {
+    "slot": "badge.text.warning.text",
+    "token": "--alloy-alias-color-text-default"
+  },
+  {
+    "slot": "body.accent",
+    "token": "--alloy-alias-color-status-critical-default"
+  },
+  {
+    "slot": "body.background",
+    "token": "--alloy-alias-color-background-default"
+  },
+  {
+    "slot": "body.border",
+    "token": "--alloy-alias-color-border-secondary-subtle"
+  },
+  {
+    "slot": "body.content",
+    "token": "--alloy-alias-color-background-light"
+  },
+  {
+    "slot": "body.disabled.icon",
+    "token": "--alloy-alias-color-graphic-dark"
+  },
+  {
+    "slot": "body.disabled.text",
+    "token": "--alloy-alias-color-text-default"
+  },
+  {
+    "slot": "body.divider",
+    "token": "--alloy-alias-color-border-subtle"
+  },
+  {
+    "slot": "body.header.altbackground",
+    "token": "--alloy-alias-color-background-alt-strong"
+  },
+  {
+    "slot": "body.header.altbackground--hover",
+    "token": "--alloy-alias-color-background-alt-dark"
+  },
+  {
+    "slot": "body.header.altbackground--pressed",
+    "token": "--alloy-alias-color-background-alt-dark"
+  },
+  {
+    "slot": "body.header.background",
+    "token": "--alloy-alias-color-background-strong"
+  },
+  {
+    "slot": "body.header.background--hover",
+    "token": "--alloy-alias-color-background-dark"
+  },
+  {
+    "slot": "body.header.background--pressed",
+    "token": "--alloy-alias-color-background-dark"
+  },
+  {
+    "slot": "body.header.icon",
+    "token": "--alloy-alias-color-graphic-light"
+  },
+  {
+    "slot": "body.header.text",
+    "token": "--alloy-alias-color-text-light"
+  },
+  {
+    "slot": "body.highlight",
+    "token": "--alloy-alias-color-background-secondary-subtle"
+  },
+  {
+    "slot": "body.highlight--focus",
+    "token": "--alloy-alias-color-border-secondary-strong"
+  },
+  {
+    "slot": "body.highlight--hover",
+    "token": "--alloy-alias-color-background-secondary-default"
+  },
+  {
+    "slot": "body.icon",
+    "token": "--alloy-alias-color-graphic-dark"
+  },
+  {
+    "slot": "body.overlay",
+    "token": "--alloy-alias-color-text-strong"
+  },
+  {
+    "slot": "body.shadow",
+    "token": "--alloy-alias-color-border-midtone"
+  },
+  {
+    "slot": "body.text",
+    "token": "--alloy-alias-color-text-default"
+  },
+  {
+    "slot": "breadcrumb.link.text",
+    "token": "--alloy-comp-color-action-link-text-default"
+  },
+  {
+    "slot": "breadcrumb.text",
+    "token": "--alloy-alias-color-text-default"
+  },
+  {
+    "slot": "button.icon.background",
+    "token": "--alloy-comp-color-action-iconcta-background-default"
+  },
+  {
+    "slot": "button.icon.background--hover",
+    "token": "--alloy-comp-color-action-iconcta-background-hover"
+  },
+  {
+    "slot": "button.icon.background--pressed",
+    "token": "--alloy-comp-color-action-iconcta-background-pressed"
+  },
+  {
+    "slot": "button.icon.border",
+    "token": "--alloy-comp-color-action-iconcta-border-default"
+  },
+  {
+    "slot": "button.icon.border--focus",
+    "token": "--alloy-comp-color-action-iconcta-border-focus"
+  },
+  {
+    "slot": "button.icon.disabled.background",
+    "token": "--alloy-comp-color-action-iconcta-background-default"
+  },
+  {
+    "slot": "button.icon.disabled.border",
+    "token": "--alloy-comp-color-action-iconcta-border-default"
+  },
+  {
+    "slot": "button.icon.disabled.text",
+    "token": "--alloy-comp-color-action-iconcta-text-default"
+  },
+  {
+    "slot": "button.icon.text",
+    "token": "--alloy-comp-color-action-iconcta-text-default"
+  },
+  {
+    "slot": "button.icon.text--hover",
+    "token": "--alloy-comp-color-action-iconcta-text-hover"
+  },
+  {
+    "slot": "button.icon.text--pressed",
+    "token": "--alloy-comp-color-action-iconcta-text-pressed"
+  },
+  {
+    "slot": "button.primary.background",
+    "token": "--alloy-comp-color-action-primarycta-background-default"
+  },
+  {
+    "slot": "button.primary.background--hover",
+    "token": "--alloy-comp-color-action-primarycta-background-hover"
+  },
+  {
+    "slot": "button.primary.background--pressed",
+    "token": "--alloy-comp-color-action-primarycta-background-pressed"
+  },
+  {
+    "slot": "button.primary.border",
+    "token": "--alloy-comp-color-action-primarycta-border-default"
+  },
+  {
+    "slot": "button.primary.border--focus",
+    "token": "--alloy-comp-color-action-primarycta-border-focus"
+  },
+  {
+    "slot": "button.primary.disabled.background",
+    "token": "--alloy-comp-color-action-primarycta-background-default"
+  },
+  {
+    "slot": "button.primary.disabled.border",
+    "token": "--alloy-comp-color-action-primarycta-border-default"
+  },
+  {
+    "slot": "button.primary.disabled.text",
+    "token": "--alloy-comp-color-action-primarycta-text-default"
+  },
+  {
+    "slot": "button.primary.text",
+    "token": "--alloy-comp-color-action-primarycta-text-default"
+  },
+  {
+    "slot": "button.primary.text--hover",
+    "token": "--alloy-comp-color-action-primarycta-text-hover"
+  },
+  {
+    "slot": "button.primary.text--pressed",
+    "token": "--alloy-comp-color-action-primarycta-text-pressed"
+  },
+  {
+    "slot": "button.secondary.background",
+    "token": "--alloy-comp-color-action-secondarycta-background-default"
+  },
+  {
+    "slot": "button.secondary.background--hover",
+    "token": "--alloy-comp-color-action-secondarycta-background-hover"
+  },
+  {
+    "slot": "button.secondary.background--pressed",
+    "token": "--alloy-comp-color-action-secondarycta-background-pressed"
+  },
+  {
+    "slot": "button.secondary.border",
+    "token": "--alloy-comp-color-action-secondarycta-border-default"
+  },
+  {
+    "slot": "button.secondary.border--focus",
+    "token": "--alloy-comp-color-action-secondarycta-border-focus"
+  },
+  {
+    "slot": "button.secondary.disabled.background",
+    "token": "--alloy-comp-color-action-secondarycta-background-default"
+  },
+  {
+    "slot": "button.secondary.disabled.border",
+    "token": "--alloy-comp-color-action-secondarycta-border-default"
+  },
+  {
+    "slot": "button.secondary.disabled.text",
+    "token": "--alloy-comp-color-action-secondarycta-text-default"
+  },
+  {
+    "slot": "button.secondary.text",
+    "token": "--alloy-comp-color-action-secondarycta-text-default"
+  },
+  {
+    "slot": "button.secondary.text--hover",
+    "token": "--alloy-comp-color-action-secondarycta-text-hover"
+  },
+  {
+    "slot": "button.secondary.text--pressed",
+    "token": "--alloy-comp-color-action-secondarycta-text-pressed"
+  },
+  {
+    "slot": "button.tertiary.background",
+    "token": "--alloy-comp-color-action-tertiarycta-background-default"
+  },
+  {
+    "slot": "button.tertiary.background--hover",
+    "token": "--alloy-comp-color-action-tertiarycta-background-hover"
+  },
+  {
+    "slot": "button.tertiary.background--pressed",
+    "token": "--alloy-comp-color-action-tertiarycta-background-pressed"
+  },
+  {
+    "slot": "button.tertiary.border",
+    "token": "--alloy-comp-color-action-tertiarycta-border-default"
+  },
+  {
+    "slot": "button.tertiary.border--focus",
+    "token": "--alloy-comp-color-action-tertiarycta-border-focus"
+  },
+  {
+    "slot": "button.tertiary.disabled.background",
+    "token": "--alloy-comp-color-action-tertiarycta-background-default"
+  },
+  {
+    "slot": "button.tertiary.disabled.border",
+    "token": "--alloy-comp-color-action-tertiarycta-border-default"
+  },
+  {
+    "slot": "button.tertiary.disabled.text",
+    "token": "--alloy-comp-color-action-tertiarycta-text-default"
+  },
+  {
+    "slot": "button.tertiary.text",
+    "token": "--alloy-comp-color-action-tertiarycta-text-default"
+  },
+  {
+    "slot": "button.tertiary.text--hover",
+    "token": "--alloy-comp-color-action-tertiarycta-text-hover"
+  },
+  {
+    "slot": "button.tertiary.text--pressed",
+    "token": "--alloy-comp-color-action-tertiarycta-text-pressed"
+  },
+  {
+    "slot": "calendar.background",
+    "token": "--alloy-alias-color-background-light"
+  },
+  {
+    "slot": "calendar.border",
+    "token": "--alloy-alias-color-border-subtle"
+  },
+  {
+    "slot": "calendar.border--focus",
+    "token": "--alloy-alias-color-border-secondary-subtle"
+  },
+  {
+    "slot": "calendar.day.background--active",
+    "token": "--alloy-alias-color-background-secondary-default"
+  },
+  {
+    "slot": "calendar.day.border--focus",
+    "token": "--alloy-alias-color-border-secondary-strong"
+  },
+  {
+    "slot": "calendar.day.text",
+    "token": "--alloy-alias-color-text-default"
+  },
+  {
+    "slot": "calendar.disabled.icon",
+    "token": "--alloy-alias-color-graphic-dark"
+  },
+  {
+    "slot": "calendar.disabled.text",
+    "token": "--alloy-alias-color-text-default"
+  },
+  {
+    "slot": "calendar.icon",
+    "token": "--alloy-alias-color-graphic-dark"
+  },
+  {
+    "slot": "calendar.link",
+    "token": "--alloy-alias-color-border-secondary-default"
+  },
+  {
+    "slot": "calendar.list.text",
+    "token": "--alloy-alias-color-text-secondary-strong"
+  },
+  {
+    "slot": "calendar.range.background",
+    "token": "--alloy-alias-color-background-secondary-subtle"
+  },
+  {
+    "slot": "calendar.text",
+    "token": "--alloy-alias-color-text-default"
+  },
+  {
+    "slot": "card.background",
+    "token": "--alloy-alias-color-background-light"
+  },
+  {
+    "slot": "card.background--hover",
+    "token": "--alloy-alias-color-background-primary-light"
+  },
+  {
+    "slot": "card.background--pressed",
+    "token": "--alloy-alias-color-background-primary-subtle"
+  },
+  {
+    "slot": "card.border",
+    "token": "--alloy-alias-color-border-midtone"
+  },
+  {
+    "slot": "card.border--focus",
+    "token": "--alloy-alias-color-border-primary-subtle"
+  },
+  {
+    "slot": "card.text",
+    "token": "--alloy-alias-color-text-default"
+  },
+  {
+    "slot": "chip.error.background",
+    "token": "--alloy-alias-color-status-critical-subtle"
+  },
+  {
+    "slot": "chip.error.border",
+    "token": "--alloy-alias-color-status-critical-strong"
+  },
+  {
+    "slot": "chip.error.dismiss",
+    "token": "--alloy-alias-color-status-critical-strong"
+  },
+  {
+    "slot": "chip.error.icon",
+    "token": "--alloy-alias-color-status-critical-strong"
+  },
+  {
+    "slot": "chip.error.text",
+    "token": "--alloy-alias-color-text-default"
+  },
+  {
+    "slot": "chip.info.background",
+    "token": "--alloy-alias-color-status-info-subtle"
+  },
+  {
+    "slot": "chip.info.border",
+    "token": "--alloy-alias-color-status-info-strong"
+  },
+  {
+    "slot": "chip.info.dismiss",
+    "token": "--alloy-alias-color-status-info-strong"
+  },
+  {
+    "slot": "chip.info.icon",
+    "token": "--alloy-alias-color-status-info-strong"
+  },
+  {
+    "slot": "chip.info.text",
+    "token": "--alloy-alias-color-text-default"
+  },
+  {
+    "slot": "chip.success.background",
+    "token": "--alloy-alias-color-status-success-subtle"
+  },
+  {
+    "slot": "chip.success.border",
+    "token": "--alloy-alias-color-border-secondary-default"
+  },
+  {
+    "slot": "chip.success.dismiss",
+    "token": "--alloy-alias-color-status-success-strong"
+  },
+  {
+    "slot": "chip.success.icon",
+    "token": "--alloy-alias-color-status-success-strong"
+  },
+  {
+    "slot": "chip.success.text",
+    "token": "--alloy-alias-color-text-default"
+  },
+  {
+    "slot": "chip.warning.background",
+    "token": "--alloy-alias-color-status-warning-subtle"
+  },
+  {
+    "slot": "chip.warning.border",
+    "token": "--alloy-alias-color-status-warning-strong"
+  },
+  {
+    "slot": "chip.warning.dismiss",
+    "token": "--alloy-alias-color-status-warning-strong"
+  },
+  {
+    "slot": "chip.warning.icon",
+    "token": "--alloy-alias-color-status-warning-strong"
+  },
+  {
+    "slot": "chip.warning.text",
+    "token": "--alloy-alias-color-text-default"
+  },
+  {
+    "slot": "context-menu.background",
+    "token": "--alloy-alias-color-background-light"
+  },
+  {
+    "slot": "context-menu.divider",
+    "token": "--alloy-alias-color-border-subtle"
+  },
+  {
+    "slot": "context-menu.header",
+    "token": "--alloy-alias-color-text-strong"
+  },
+  {
+    "slot": "context-menu.item.background",
+    "token": "--alloy-alias-color-background-light"
+  },
+  {
+    "slot": "context-menu.item.background--hover",
+    "token": "--alloy-alias-color-background-secondary-subtle"
+  },
+  {
+    "slot": "context-menu.item.background--pressed",
+    "token": "--alloy-alias-color-background-primary-subtle"
+  },
+  {
+    "slot": "context-menu.item.icon",
+    "token": "--alloy-alias-color-graphic-default"
+  },
+  {
+    "slot": "context-menu.item.secondary-text",
+    "token": "--alloy-alias-color-text-midtone"
+  },
+  {
+    "slot": "context-menu.item.text",
+    "token": "--alloy-alias-color-text-default"
+  },
+  {
+    "slot": "context-menu.item.text--hover",
+    "token": "--alloy-alias-color-text-default"
+  },
+  {
+    "slot": "context-menu.tabs.background--hover",
+    "token": "--alloy-alias-color-background-primary-light"
+  },
+  {
+    "slot": "data.default.01",
+    "token": "--alloy-alias-color-data-default-01"
+  },
+  {
+    "slot": "data.default.02",
+    "token": "--alloy-alias-color-data-default-02"
+  },
+  {
+    "slot": "data.default.03",
+    "token": "--alloy-alias-color-data-default-03"
+  },
+  {
+    "slot": "data.default.04",
+    "token": "--alloy-alias-color-data-default-04"
+  },
+  {
+    "slot": "data.default.05",
+    "token": "--alloy-alias-color-data-default-05"
+  },
+  {
+    "slot": "data.default.06",
+    "token": "--alloy-alias-color-data-default-06"
+  },
+  {
+    "slot": "data.default.07",
+    "token": "--alloy-alias-color-data-default-07"
+  },
+  {
+    "slot": "data.default.08",
+    "token": "--alloy-alias-color-data-default-08"
+  },
+  {
+    "slot": "data.default.09",
+    "token": "--alloy-alias-color-data-default-09"
+  },
+  {
+    "slot": "data.default.10",
+    "token": "--alloy-alias-color-data-default-10"
+  },
+  {
+    "slot": "data.default.11",
+    "token": "--alloy-alias-color-data-default-11"
+  },
+  {
+    "slot": "data.default.12",
+    "token": "--alloy-alias-color-data-default-12"
+  },
+  {
+    "slot": "data.default.13",
+    "token": "--alloy-alias-color-data-default-13"
+  },
+  {
+    "slot": "data.default.14",
+    "token": "--alloy-alias-color-data-default-14"
+  },
+  {
+    "slot": "input.background",
+    "token": "--alloy-alias-color-background-light"
+  },
+  {
+    "slot": "input.border",
+    "token": "--alloy-alias-color-border-default"
+  },
+  {
+    "slot": "input.border--focus",
+    "token": "--alloy-alias-color-border-secondary-strong"
+  },
+  {
+    "slot": "input.border--hover",
+    "token": "--alloy-alias-color-border-secondary-strong"
+  },
+  {
+    "slot": "input.control.altbackground",
+    "token": "--alloy-alias-color-background-light"
+  },
+  {
+    "slot": "input.control.altbackground--hover",
+    "token": "--alloy-alias-color-background-subtle"
+  },
+  {
+    "slot": "input.control.background",
+    "token": "--alloy-alias-color-background-secondary-strong"
+  },
+  {
+    "slot": "input.control.border",
+    "token": "--alloy-alias-color-border-default"
+  },
+  {
+    "slot": "input.control.foreground",
+    "token": "--alloy-alias-color-background-light"
+  },
+  {
+    "slot": "input.description",
+    "token": "--alloy-alias-color-text-midtone"
+  },
+  {
+    "slot": "input.disabled.background",
+    "token": "--alloy-alias-color-background-subtle"
+  },
+  {
+    "slot": "input.disabled.border",
+    "token": "--alloy-alias-color-border-default"
+  },
+  {
+    "slot": "input.disabled.icon",
+    "token": "--alloy-alias-color-graphic-midtone"
+  },
+  {
+    "slot": "input.disabled.labelText",
+    "token": "--alloy-alias-color-text-strong"
+  },
+  {
+    "slot": "input.disabled.text",
+    "token": "--alloy-alias-color-text-default"
+  },
+  {
+    "slot": "input.icon",
+    "token": "--alloy-alias-color-graphic-default"
+  },
+  {
+    "slot": "input.icon--hover",
+    "token": "--alloy-alias-color-graphic-default"
+  },
+  {
+    "slot": "input.invalid.border",
+    "token": "--alloy-alias-color-status-critical-strong"
+  },
+  {
+    "slot": "input.invalid.icon",
+    "token": "--alloy-alias-color-status-critical-strong"
+  },
+  {
+    "slot": "input.invalid.labelText",
+    "token": "--alloy-alias-color-text-strong"
+  },
+  {
+    "slot": "input.invalid.shadow",
+    "token": "--alloy-alias-color-border-light"
+  },
+  {
+    "slot": "input.invalid.shadow--focus",
+    "token": "--alloy-alias-color-status-critical-default"
+  },
+  {
+    "slot": "input.invalid.text",
+    "token": "--alloy-alias-color-status-critical-strong"
+  },
+  {
+    "slot": "input.label",
+    "token": "--alloy-alias-color-text-strong"
+  },
+  {
+    "slot": "input.label--required",
+    "token": "--alloy-alias-color-status-critical-strong"
+  },
+  {
+    "slot": "input.number",
+    "token": "--alloy-alias-color-text-default"
+  },
+  {
+    "slot": "input.number--hover",
+    "token": "--alloy-alias-color-text-default"
+  },
+  {
+    "slot": "input.placeholder",
+    "token": "--alloy-alias-color-text-subtle"
+  },
+  {
+    "slot": "input.populated.border",
+    "token": "--alloy-alias-color-border-default"
+  },
+  {
+    "slot": "input.readOnly.background",
+    "token": "--alloy-alias-color-background-subtle"
+  },
+  {
+    "slot": "input.readOnly.icon",
+    "token": "--alloy-alias-color-graphic-midtone"
+  },
+  {
+    "slot": "input.readOnly.labelText",
+    "token": "--alloy-alias-color-text-strong"
+  },
+  {
+    "slot": "input.readOnly.text",
+    "token": "--alloy-alias-color-text-default"
+  },
+  {
+    "slot": "input.shadow",
+    "token": "--alloy-alias-color-border-light"
+  },
+  {
+    "slot": "input.shadow--focus",
+    "token": "--alloy-alias-color-border-secondary-subtle"
+  },
+  {
+    "slot": "input.shadow--hover",
+    "token": "--alloy-alias-color-background-secondary-subtle"
+  },
+  {
+    "slot": "input.text",
+    "token": "--alloy-alias-color-text-default"
+  },
+  {
+    "slot": "input.text--hover",
+    "token": "--alloy-alias-color-text-default"
+  },
+  {
+    "slot": "link.border--focus",
+    "token": "--alloy-alias-color-border-primary-default"
+  },
+  {
+    "slot": "link.text",
+    "token": "--alloy-comp-color-action-link-text-default"
+  },
+  {
+    "slot": "link.text--hover",
+    "token": "--alloy-comp-color-action-link-text-default"
+  },
+  {
+    "slot": "list.background",
+    "token": "--alloy-alias-color-background-light"
+  },
+  {
+    "slot": "list.border",
+    "token": "--alloy-alias-color-border-subtle"
+  },
+  {
+    "slot": "list.divider",
+    "token": "--alloy-alias-color-border-subtle"
+  },
+  {
+    "slot": "list.field.border",
+    "token": "--alloy-alias-color-border-default"
+  },
+  {
+    "slot": "list.header.background",
+    "token": "--alloy-alias-color-background-subtle"
+  },
+  {
+    "slot": "list.invalid.border",
+    "token": "--alloy-alias-color-status-critical-strong"
+  },
+  {
+    "slot": "list.item.background",
+    "token": "--alloy-alias-color-background-light"
+  },
+  {
+    "slot": "list.item.background--hover",
+    "token": "--alloy-alias-color-background-secondary-subtle"
+  },
+  {
+    "slot": "list.item.background--pressed",
+    "token": "--alloy-alias-color-background-secondary-default"
+  },
+  {
+    "slot": "list.item.border",
+    "token": "--alloy-alias-color-border-secondary-subtle"
+  },
+  {
+    "slot": "list.item.icon",
+    "token": "--alloy-alias-color-graphic-default"
+  },
+  {
+    "slot": "list.item.secondary-text",
+    "token": "--alloy-alias-color-text-midtone"
+  },
+  {
+    "slot": "list.item.text",
+    "token": "--alloy-alias-color-text-default"
+  },
+  {
+    "slot": "menu.icon.background",
+    "token": "--alloy-alias-color-background-strong"
+  },
+  {
+    "slot": "menu.item.background",
+    "token": "--alloy-alias-color-background-strong"
+  },
+  {
+    "slot": "menu.item.background--active",
+    "token": "--alloy-alias-color-background-strong"
+  },
+  {
+    "slot": "menu.item.background--hover",
+    "token": "--alloy-alias-color-background-dark"
+  },
+  {
+    "slot": "menu.item.icon",
+    "token": "--alloy-alias-color-graphic-light"
+  },
+  {
+    "slot": "menu.item.icon--active",
+    "token": "--alloy-alias-color-graphic-secondary"
+  },
+  {
+    "slot": "menu.item.icon--hover",
+    "token": "--alloy-alias-color-graphic-secondary"
+  },
+  {
+    "slot": "menu.item.text",
+    "token": "--alloy-alias-color-text-light"
+  },
+  {
+    "slot": "menu.item.text--active",
+    "token": "--alloy-alias-color-text-secondary-default"
+  },
+  {
+    "slot": "menu.item.text--hover",
+    "token": "--alloy-alias-color-text-secondary-default"
+  },
+  {
+    "slot": "spinner.icon",
+    "token": "--alloy-alias-color-graphic-brand"
+  },
+  {
+    "slot": "spinner.text",
+    "token": "--alloy-alias-color-text-brand-default"
+  },
+  {
+    "slot": "stepper.background",
+    "token": "--alloy-alias-color-background-light"
+  },
+  {
+    "slot": "stepper.background--active",
+    "token": "--alloy-alias-color-background-primary-strong"
+  },
+  {
+    "slot": "stepper.border",
+    "token": "--alloy-alias-color-border-default"
+  },
+  {
+    "slot": "stepper.border--active",
+    "token": "--alloy-alias-color-border-primary-default"
+  },
+  {
+    "slot": "stepper.border--completed",
+    "token": "--alloy-alias-color-border-primary-default"
+  },
+  {
+    "slot": "stepper.disabled.background",
+    "token": "--alloy-alias-color-background-subtle"
+  },
+  {
+    "slot": "stepper.disabled.border",
+    "token": "--alloy-alias-color-border-default"
+  },
+  {
+    "slot": "stepper.disabled.icon",
+    "token": "--alloy-alias-color-graphic-strong"
+  },
+  {
+    "slot": "stepper.disabled.text",
+    "token": "--alloy-alias-color-text-subtle"
+  },
+  {
+    "slot": "stepper.icon",
+    "token": "--alloy-alias-color-graphic-strong"
+  },
+  {
+    "slot": "stepper.icon--active",
+    "token": "--alloy-alias-color-graphic-light"
+  },
+  {
+    "slot": "stepper.icon--completed",
+    "token": "--alloy-alias-color-graphic-primary"
+  },
+  {
+    "slot": "stepper.invalid.background",
+    "token": "--alloy-alias-color-status-critical-subtle"
+  },
+  {
+    "slot": "stepper.invalid.border",
+    "token": "--alloy-alias-color-status-critical-strong"
+  },
+  {
+    "slot": "stepper.invalid.icon",
+    "token": "--alloy-alias-color-status-critical-strong"
+  },
+  {
+    "slot": "stepper.invalid.text",
+    "token": "--alloy-alias-color-status-critical-strong"
+  },
+  {
+    "slot": "stepper.text",
+    "token": "--alloy-alias-color-text-subtle"
+  },
+  {
+    "slot": "stepper.text--active",
+    "token": "--alloy-alias-color-text-primary-default"
+  },
+  {
+    "slot": "stepper.text--completed",
+    "token": "--alloy-alias-color-text-primary-default"
+  },
+  {
+    "slot": "table.footer.background",
+    "token": "--alloy-comp-color-table-background-subtle"
+  },
+  {
+    "slot": "table.footer.border",
+    "token": "--alloy-comp-color-table-border-light"
+  },
+  {
+    "slot": "table.footer.text",
+    "token": "--alloy-comp-color-table-strong"
+  },
+  {
+    "slot": "table.header.background",
+    "token": "--alloy-comp-color-table-background-subtle"
+  },
+  {
+    "slot": "table.header.border",
+    "token": "--alloy-comp-color-table-border-light"
+  },
+  {
+    "slot": "table.header.icon",
+    "token": "--alloy-comp-color-table-strong"
+  },
+  {
+    "slot": "table.header.text",
+    "token": "--alloy-comp-color-table-strong"
+  },
+  {
+    "slot": "table.row.background",
+    "token": "--alloy-comp-color-table-background-default"
+  },
+  {
+    "slot": "table.row.background--active",
+    "token": "--alloy-comp-color-table-background-light"
+  },
+  {
+    "slot": "table.row.border",
+    "token": "--alloy-comp-color-table-border-default"
+  },
+  {
+    "slot": "table.row.border--hover",
+    "token": "--alloy-comp-color-table-border-strong"
+  },
+  {
+    "slot": "table.row.text",
+    "token": "--alloy-comp-color-table-text-default"
+  },
+  {
+    "slot": "tools-menu.context-menu.disabled",
+    "token": "--alloy-alias-color-text-strong"
+  },
+  {
+    "slot": "tools-menu.context-menu.icon",
+    "token": "--alloy-alias-color-graphic-primary"
+  },
+  {
+    "slot": "tools-menu.context-menu.text",
+    "token": "--alloy-alias-color-text-strong"
+  },
+  {
+    "slot": "tools-menu.icon.background",
+    "token": "--alloy-alias-color-graphic-primary"
+  },
+  {
+    "slot": "tools-menu.item.active",
+    "token": "--alloy-alias-color-background-secondary-default"
+  },
+  {
+    "slot": "tools-menu.item.background--hover",
+    "token": "--alloy-alias-color-background-secondary-subtle"
+  },
+  {
+    "slot": "tools-menu.item.disabled",
+    "token": "--alloy-alias-color-text-strong"
+  },
+  {
+    "slot": "tools-menu.item.focus",
+    "token": "--alloy-alias-color-border-secondary-subtle"
+  },
+  {
+    "slot": "tools-menu.item.text",
+    "token": "--alloy-alias-color-text-strong"
+  }
+]

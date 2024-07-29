@@ -13,3 +13,26 @@ $colors: (
     --#{$name}: #{$color};
   }
 }
+
+
+body {
+  background: symplr-tools.get-semantic-slot("body.background-not-real");
+}
+
+.selector {
+  color: symplr-tools.get-semantic-slot(
+    "tools-menu.item.background--hover",
+    "primary"
+  );
+}
+
+.select-with-border {
+  color: tools.get-semantic-slot("body.border", "primary");
+  border: 1px solid symplr-tools.get-semantic-slot("body.border", "primary");
+}
+
+.app-content {
+  background-color: tools.get-semantic-slot("body.content");
+  padding: tools.get-spacing("sm");
+  width: fit-content;
+}
